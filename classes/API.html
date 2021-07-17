@@ -84,6 +84,7 @@
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#actions" class="tsd-kind-icon">actions</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#animals" class="tsd-kind-icon">animals</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#binaryToText" class="tsd-kind-icon">binary<wbr>ToText</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#textToBinary" class="tsd-kind-icon">text<wbr>ToBinary</a></li>
@@ -112,16 +113,16 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="animals" class="tsd-anchor"></a>
-					<h3>animals</h3>
+					<a name="actions" class="tsd-anchor"></a>
+					<h3>actions</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">animals<span class="tsd-signature-symbol">(</span>animal<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">actions<span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Actions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/ad071b9/src/lib/api.ts#L12">lib/api.ts:12</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L58">lib/api.ts:58</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -133,9 +134,41 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>animal: <span class="tsd-signature-type">string</span></h5>
+									<h5>action: <span class="tsd-signature-type">Actions</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Animal endpoint</p>
+										<p>Endpoint name</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="animals" class="tsd-anchor"></a>
+					<h3>animals</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">animals<span class="tsd-signature-symbol">(</span>animal<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Animals</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L13">lib/api.ts:13</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>async</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>animal: <span class="tsd-signature-type">Animals</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Endpoint name</p>
 									</div>
 								</li>
 							</ul>
@@ -153,7 +186,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/ad071b9/src/lib/api.ts#L41">lib/api.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L42">lib/api.ts:42</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -185,7 +218,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/ad071b9/src/lib/api.ts#L26">lib/api.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L27">lib/api.ts:27</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -226,6 +259,9 @@
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class">
 								<a href="API.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="API.html#actions" class="tsd-kind-icon">actions</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="API.html#animals" class="tsd-kind-icon">animals</a>
