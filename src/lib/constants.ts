@@ -8,6 +8,15 @@ export default {
 			'cat',
 			'bear',
 			'panda'
+		],
+		other: [
+			'qoutes',
+			'riddle',
+			'car'
+		],
+		actions: [
+			'hug',
+			'kiss'
 		]
 	}
 }

@@ -5,7 +5,7 @@
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
   "private": false,
-  "description": "A template",
+  "description": "A wrapper for no-api-key.com",
   "typings": "dist/src/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext ts",
