@@ -3,7 +3,7 @@
 # Akari
 
 [![CD](https://github.com/hidden-umbrella/akari/actions/workflows/CD.yml/badge.svg)](https://github.com/hidden-umbrella/akari/actions/workflows/CD.yml)
-[![Depfu](https://badges.depfu.com/badges/debc5d63788928c9b1d50a39079061c1/count.svg)](https://badges.depfu.com/github/hidden-umbrella/akari)
+[![Depfu](https://badges.depfu.com/badges/7839aa9ad3dfe178e80aff7aa67158ab/count.svg)](https://depfu.com/github/hidden-umbrella/akari?project_id=28969)
 
 ![npm](https://img.shields.io/npm/v/akari?color=cornflowerblue&label=akari&logo=npm&style=for-the-badge)
 
