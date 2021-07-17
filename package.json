@@ -1,6 +1,6 @@
 {
-  "name": "kasa",
-  "version": "0.0.0",
+  "name": "akari",
+  "version": "1.0.0",
   "main": "dist/src/index",
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
@@ -55,9 +55,9 @@
     "!dist/*.tsbuildinfo"
   ],
   "keywords": [
-    "nothing",
-    "much",
-    "yet"
+    "no-api-key",
+    "no api key",
+    "free"
   ],
   "commitlint": {
     "extends": [

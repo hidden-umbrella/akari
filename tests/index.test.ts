@@ -1,6 +1,6 @@
 import { Exec } from './animal'
 
-describe('Testing index function', () => {
+describe('Animals', () => {
 	test('CERTAINLY should pass', async () => {
 		expect(typeof await Exec()).toBe('object')
 	})
