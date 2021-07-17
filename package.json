@@ -1,6 +1,6 @@
 {
   "name": "akari",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/src/index",
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
@@ -45,10 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hidden-umbrella/template.git"
+    "url": "https://github.com/hidden-umbrella/akari.git"
   },
   "bugs": {
-    "url": "https://github.com/hidden-umbrella/template/issues"
+    "url": "https://github.com/hidden-umbrella/akari/issues"
   },
   "files": [
     "dist",
