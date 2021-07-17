@@ -8,6 +8,7 @@ export default class API {
 	/**
 	 * @param {Animals} animal Endpoint name
 	 * @async
+	 * @returns {Promise<object>}
 	 */
 	// eslint-disable-next-line @typescript-eslint/ban-types
 	public async animals (animal: Animals): Promise<object> {
@@ -23,6 +24,7 @@ export default class API {
 	/**
 	 * @param {string} text Text to convert into binary
 	 * @async
+	 * @returns {Promise<string>}
 	 */
 	public async textToBinary (text: string): Promise<string> {
 		if (text.length === 0) throw new Error('No text was given')
@@ -38,6 +40,7 @@ export default class API {
 	/**
 	 * @param {string} binary Text to convert into binary
 	 * @async
+	 * @returns {Promise<string>}
 	 */
 	public async binaryToText (binary: string): Promise<string> {
 		if (binary.length === 0) throw new Error('No text was given')
@@ -53,15 +56,30 @@ export default class API {
 	/**
 	 * @param {Actions} action Endpoint name
 	 * @async
+	 * @returns {Promise<string>}
 	 */
-	// eslint-disable-next-line @typescript-eslint/ban-types
-	public async actions (action: Actions): Promise<object> {
+	public async actions (action: Actions): Promise<string> {
 		if (!constants.Routes.actions.includes(action)) throw new Error('Invalid endpoint')
 
 		const { image }: { image: string } = await c(constants.URLs.baseURL)
 			.path(action)
 			.json()
 
-		return { image }
+		return image
+	}
+
+	/**
+	 * @param {string} text Text to flip
+	 * @async
+	 * @returns {Promise<string>}
+	 */
+	public async flip (text: string): Promise<string> {
+		if (text.trim().length === 0) throw new Error('No text was given')
+
+		const { message }: { message: string } = await c(constants.URLs.baseURL)
+			.path('flip-text')
+			.json()
+
+		return message
 	}
 }
