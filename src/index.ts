@@ -1,6 +1,3 @@
-let arrow = (): string => {
-	let str = 'How did this not the first time?'
-	return str
-}
+import API from './lib/api'
 
-export default arrow
+export { API }

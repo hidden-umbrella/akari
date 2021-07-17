@@ -1,7 +1,7 @@
-import index from '../src/index'
+import { Exec } from './animal'
 
 describe('Testing index function', () => {
-	test('CERTAINLY should pass', () => {
-		expect(index()).toBe('How did this not the first time?')
+	test('CERTAINLY should pass', async () => {
+		expect(typeof await Exec()).toBe('object')
 	})
 })
