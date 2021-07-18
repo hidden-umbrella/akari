@@ -59,7 +59,7 @@ jobs:
         run: yarn build
       - name: "Push to NPM Registry"
         run: |
-         TAG=$([[ ${{ github.event_name }} == 'push' ]] && echo 'next' || echo 'pr-${{ github.event.inputs.prNumber }}')
+         TAG=$([[ ${{ github.event_name }} == 'push' ]] && echo 'nightly' || echo 'pr-${{ github.event.inputs.prNumber }}')
 
          yarn standard-version --skip.commit --skip.tag --skip.changelog --prerelease "${TAG}.$(git rev-parse --verify --short HEAD)"
 
