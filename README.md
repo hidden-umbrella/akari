@@ -15,6 +15,8 @@
 ## Features
 
 - Animal endpoints
+- Custom endpoints
+- Other endpoints
 
 ## Docs
 
