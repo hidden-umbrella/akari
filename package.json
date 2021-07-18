@@ -34,6 +34,7 @@
     "husky": "^7.0.0",
     "jest": "^27.0.6",
     "rimraf": "^3.0.2",
+    "standard-version": "^9.3.1",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.1.0",
     "typedoc": "^0.21.4",
