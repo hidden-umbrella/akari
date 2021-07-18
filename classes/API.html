@@ -87,6 +87,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#actions" class="tsd-kind-icon">actions</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#animals" class="tsd-kind-icon">animals</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#binaryToText" class="tsd-kind-icon">binary<wbr>ToText</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#flip" class="tsd-kind-icon">flip</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="API.html#textToBinary" class="tsd-kind-icon">text<wbr>ToBinary</a></li>
 							</ul>
 						</section>
@@ -116,13 +117,13 @@
 					<a name="actions" class="tsd-anchor"></a>
 					<h3>actions</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">actions<span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Actions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">actions<span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Actions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L58">lib/api.ts:58</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/4bccc0b/src/lib/api.ts#L61">lib/api.ts:61</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -140,7 +141,7 @@
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -154,7 +155,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L13">lib/api.ts:13</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/4bccc0b/src/lib/api.ts#L14">lib/api.ts:14</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -186,7 +187,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L42">lib/api.ts:42</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/4bccc0b/src/lib/api.ts#L45">lib/api.ts:45</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -209,6 +210,38 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="flip" class="tsd-anchor"></a>
+					<h3>flip</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">flip<span class="tsd-signature-symbol">(</span>text<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/4bccc0b/src/lib/api.ts#L76">lib/api.ts:76</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>async</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>text: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Text to flip</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="textToBinary" class="tsd-anchor"></a>
 					<h3>text<wbr>ToBinary</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -218,7 +251,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/efce6a9/src/lib/api.ts#L27">lib/api.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/hidden-umbrella/akari/blob/4bccc0b/src/lib/api.ts#L29">lib/api.ts:29</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -268,6 +301,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="API.html#binaryToText" class="tsd-kind-icon">binary<wbr>ToText</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="API.html#flip" class="tsd-kind-icon">flip</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="API.html#textToBinary" class="tsd-kind-icon">text<wbr>ToBinary</a>
