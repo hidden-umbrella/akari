@@ -23,9 +23,10 @@ export default class API {
 	/**
 	 * @param {Underlays} underlay Endpoint name
 	 * @async
-	 * @returns {Promise<Buffer>}
+	 * @returns {Promise<object>}
 	 */
-	public async underlays (underlay: Underlays, image: string): Promise<Buffer> {
+	// eslint-disable-next-line @typescript-eslint/ban-types
+	public async underlays (underlay: Underlays, image: string): Promise<object> {
 		if (!constants.Routes.underlays.includes(underlay)) throw new Error('Invalid endpoint')
 		if (image.trim().length === 0) throw new Error('No Image URL was given')
 
