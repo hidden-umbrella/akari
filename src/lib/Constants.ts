@@ -1,6 +1,7 @@
 export default {
 	URLs: {
-		baseURL: 'https://no-api-key.com/api/v1/'
+		V1: 'https://no-api-key.com/api/v1/',
+		V2: 'https://no-api-key.com/api/v2/'
 	},
 	Routes: {
 		animals: [
@@ -9,10 +10,12 @@ export default {
 			'bear',
 			'panda'
 		],
-		other: [
-			'qoutes',
-			'riddle',
-			'car'
+		underlays: [
+			'delete',
+			'simpcard',
+			'crap',
+			'kick',
+			'punch'
 		],
 		actions: [
 			'hug',
