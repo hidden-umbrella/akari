@@ -22,16 +22,19 @@
         "@typescript-eslint/quotes": ["error", "single"],
         "@typescript-eslint/semi": ["error", "never"],
 		"block-scoped-var": "error",
+        "brace-style": [2, "1tbs"],
 		"eol-last": [2, "always"],
+        "eqeqeq": "error",
 		"linebreak-style": ["error", "unix"],
 		"no-console": "error",
 		"no-unused-vars": "error",
 		"no-extra-parens": "error",
 		"no-await-in-loop": "error",
-		"no-tabs": 0,
-		"no-mixed-spaces-and-tabs": 1,
+		"no-tabs": "off",
+		"no-mixed-spaces-and-tabs": "error",
 		"no-void": "error",
 		"prefer-const": "off",
-        "indent": "off"
+        "indent": "off",
+        "yoda": "error"
     }
 }
